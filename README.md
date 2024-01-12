@@ -5,18 +5,20 @@
 
 ## 설치
 1. `.env` 파일 내에 `MONGO_DB` URL과 PORT 설정
-e.g)
+
 ```env
 MONGO_DB="mongodb://localhost:27017"
 PORT="3000"
 NODE_ENV="development"
 ```
-2. Node version: >= 20.9.0
+
+2. Node Version: >= 20.9.0
 3. 기초 데이터 세팅: `populatedb.js`
-e.g)
+
 ```cmd
 node populatedb <your MongoDB url>
 ```
+
 4. 패키지 다운로드: `npm install`
 5. 앱 실행: `npm run serverstart`
 
